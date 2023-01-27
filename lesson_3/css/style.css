@@ -1,0 +1,110 @@
+@import url("reset.css");
+
+h1, h2, h3, h4, h5, h6 {
+
+	font-size: 25px;
+	font-weight: bold;
+	padding: 30px 0 50px 0;
+	text-align: center;
+	height: 50px;
+}
+
+p {padding: 10px 0 0 0 ;}
+
+
+
+.wrap {
+	
+	max-width: 100%;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:aliceblue
+	
+}
+
+
+.text * {
+	border: 3px solid black;
+}
+
+
+
+.text2 ~ p {
+	color: rgb(0, 8, 255);
+	font-size: 20px;
+	font-style: italic;
+	
+}
+
+.list + p  {
+	color: rgb(0, 18, 101); 
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+p>span {
+	color:green;
+	font-weight: 900;
+}
+.text2 > .text3 {
+	color:chocolate;
+	font-weight:900 ;
+}
+
+
+
+[class*="__container"] {
+	max-width: 1158px;
+	margin: 0 auto;
+}
+
+[class*="__txt"]{
+	color: red;
+	font-weight: bolder;
+	font-size: 25px;
+	text-align: center;
+	padding: 30px 0 50px 0;
+}
+
+
+.content li{
+	margin: 0 0 0 200px;
+	width: 300px;
+	height: 20px;
+	padding: 2px;
+
+}
+.content li:hover {
+	background-color:rgb(173, 229, 255);
+	cursor: pointer;
+}
+
+
+.text {
+	padding: 30px 0 0 0 ;
+	background-color:aliceblue;
+	min-width: 1158px;
+}
+
+.image {
+	text-align: center;
+	padding: 30px 0 30px 0;
+}
+
+	
+
+.list {
+	padding: 30px 0 30px 0;
+	margin-left: 100px;
+}
+
+.list li {
+	list-style: circle;
+	padding: 0 0 5px 0;
+}
+
+.list ol li {
+	list-style: decimal;
+	padding: 0 0 5px 0;	
+}
