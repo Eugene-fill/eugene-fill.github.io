@@ -1,0 +1,118 @@
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
+@import url("reset.css");
+
+/* ====================== ШРИФТИ =============================== */
+
+/*----------------- Підключення шрифтів ----------------------- */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+@font-face {
+    font-family: 'Bungee Spice';
+    src: url('../fonts/BungeeSpice-Regular.woff2') format('woff2'),
+        url('../fonts/BungeeSpice-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Marck Script';
+    src: url('../fonts/MarckScript-Regular.woff2') format('woff2'),
+        url('../fonts/MarckScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Itim';
+    src: url('../fonts/Itim-Regular.woff2') format('woff2'),
+        url('../fonts/Itim-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+img {float: right;
+	width: 500px;
+	margin: 10px 20px 10px 10px;
+	box-shadow: 5px 5px 10px  rgb(253, 255, 188);
+
+}
+
+.image {
+	border: 1px solid black;
+	display:grid;
+	float: right;
+	margin-left: 10px;
+	padding-left:10px ;
+	text-align: left;
+	
+}
+
+.sign {
+	margin-left: 10px;
+	font-family: 'Roboto';
+	text-decoration: underline;
+	
+}
+
+.wrap {
+	max-width: 100%;
+	background-color: aliceblue;
+	margin: 0 auto;
+}
+
+.container {
+	background-color:rgb(143, 173, 198);
+	width: 1150px;
+	margin: 0 auto;
+}
+
+
+.title, .text, .text2, .text3, .text4 {
+	padding: 10px 10px 10px 10px;
+	text-indent: 50px;
+	font-size: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 5px -5px 10px rgb(255, 255, 0), 10px -10px 10px rgba(0, 255, 72, 0.815), 15px -15px 15px rgb(82, 145, 255) ;
+}
+
+.title {
+	font-family: 'Bungee Spice';
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 5px;	
+	border-bottom: 2px solid black;
+	padding: 15px 0px 15px 0px;
+
+}
+
+.text {
+	font-family: 'Itim';
+	line-height: 25px;	
+}
+
+.text2 {
+	font-family: 'Marck Script';
+	
+}
+
+.text3 {
+	font-family: 'Roboto';
+	font-style: italic;
+}
+
+.text4 {
+	font-family: 'Pacifico';
+
+}
+
+

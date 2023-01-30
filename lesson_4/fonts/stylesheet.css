@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Bungee Spice';
+    src: url('BungeeSpice-Regular.woff2') format('woff2'),
+        url('BungeeSpice-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Marck Script';
+    src: url('MarckScript-Regular.woff2') format('woff2'),
+        url('MarckScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Itim';
+    src: url('Itim-Regular.woff2') format('woff2'),
+        url('Itim-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
