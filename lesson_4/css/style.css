@@ -1,5 +1,11 @@
-
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
 @import url("reset.css");
+
+/* ====================== ШРИФТИ =============================== */
+
+/*----------------- Підключення шрифтів ----------------------- */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
@@ -40,12 +46,12 @@ img {float: right;
 }
 
 .image {
-		border: 1px solid black;
+	border: 1px solid black;
 	display:block;
 	float: right;
 	margin-left: 10px;
 	padding-left:10px ;
-	margin-bottom: 5px;
+	padding-bottom: 5px;
 	text-align: left;
 	
 }
@@ -70,11 +76,10 @@ img {float: right;
 	margin: 0 auto;
 	text-align: justify;
 }
-
+ p {text-indent: 50px;}
 
 .title, .text, .text2, .text3, .text4 {
 	padding: 10px 10px 100px 10px;
-	text-indent: 50px;
 	font-size: 25px;
 }
 
@@ -129,5 +134,4 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 4px;
 	
 }
-
 
