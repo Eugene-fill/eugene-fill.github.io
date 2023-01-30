@@ -47,7 +47,7 @@ img {float: right;
 
 .image {
 	border: 1px solid black;
-	display:grid;
+	display:block;
 	float: right;
 	margin-left: 10px;
 	padding-left:10px ;
