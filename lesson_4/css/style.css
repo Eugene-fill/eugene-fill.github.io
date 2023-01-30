@@ -63,20 +63,22 @@ img {float: right;
 }
 
 .wrap {
-	max-width: 100%;
+	
 	background-color: aliceblue;
 	margin: 0 auto;
+	
 }
 
 .container {
 	background-color:rgb(143, 173, 198);
-	width: 1150px;
+	min-width:650px ;
 	margin: 0 auto;
+	text-align: justify;
 }
 
 
 .title, .text, .text2, .text3, .text4 {
-	padding: 10px 10px 10px 10px;
+	padding: 10px 10px 100px 10px;
 	text-indent: 50px;
 	font-size: 25px;
 }
