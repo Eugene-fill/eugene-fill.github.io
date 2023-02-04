@@ -212,8 +212,7 @@
 	margin-bottom: 10px;
 }
 .list__item:hover {
-	width: 250px;
-	height: 358px;
+	
 	box-shadow: 3px 3px 10px  #a3b0bb;
 
 }
