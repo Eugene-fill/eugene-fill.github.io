@@ -205,9 +205,8 @@
 	text-align: justify;
 
 }
-.list__item:last-child {
-	margin-right: 0px;
-}
+
+
 .list__item img {
 	width: 100%;
 	margin-bottom: 10px;
