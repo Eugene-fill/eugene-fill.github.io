@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
 * {
-	font-family: Poppins, sans-serif ;
+	font-family: Poppins ;
 }
+
 
 .header__block {
 	max-width: 1240px;
@@ -17,20 +18,18 @@
 	background-attachment:fixed;
 	background-size:cover;
 	color: white;
+	padding: 10px 0 0 0;
 	margin-bottom: 80px;
 
 }
 
 .menu {
-	
-	display:inline-block;
+	display:block;
 	float: right;
-	justify-content: space-between;
-	padding: 0 132px 0px 0;
+	padding: 36px 132px 0px 0;
 	min-height: 30px;
 	color: #F8F9FA;
-	margin-top: -50px;
-
+	
 
 }
 .nav__menu ul li {
@@ -42,10 +41,11 @@
 }
 
 .logo {
+	display: block;
+	float: left;
 	font-weight: 700;
-	padding: 60px 0 0 0;
-	margin-left: 36px;
-	/*margin: 0 36px 65px 25px;*/
+	padding-left: 100px;
+	padding-top: 36px;
 	Font-size: 18px;
 	
 }
@@ -53,8 +53,11 @@
 
 
 .header_txt {
-	text-align:center;
+	min-height: 500px;
+	padding-top: 200px;
+	padding-bottom: 100px;
 	margin: 0 auto;
+	text-align:center;
 	line-height: 50px;
 }
 .string {
@@ -63,7 +66,6 @@
 	font-size: 12px;
 }
 .string2 {
-	text-align: center;
 	font-size: 25px;
 	font-weight: 700;
 }
@@ -106,20 +108,20 @@
 }
 
 
+
 .main__article h1 {
-	max-width: 400px;
 	font-size: 25px;
 	font-weight: 700;
 	line-height: 40px;
+	max-width: 400px;
 	margin-bottom: 40px;
 	
 }
 .main__article h2 {
-	max-width: 605px;
-	height: 120px;
 	font-size: 25px;
 	font-weight: 700;
-	line-height: 40px;
+	max-width: 605px;
+	
 	margin: 0 0 40px 0;
 	
 }
@@ -131,47 +133,23 @@
 
 
 .image {
+	display: inline-block;
+	margin: 0 auto;
 	font-size: 0px;
-	max-width: 1240px;
-	margin: 0 auto 80px auto;
-	font-size: 0px;
 	
 }
-
-
-.im1{
-	margin-right: 40px;
-	display: inline-block;
-	width: 600px; 
-}
-.im2{
-	
-	display: inline-block;
-	width: 600px; 
-}
-
-.top a {
-	display: inline-block;
-	float: right;
-	width: 200px;
-	height: 50px;
-	border: 2px solid #a3b0bb;
-	border-radius: 5px;
-	color:#6C757D;
-	height: 50px;
-	font-size: 20px;
-	font-weight: 700;
-	text-align:center;
-	padding: 10px 0 ;
-	transition: 0.3s;
-
-	
+.image img {
+	width: 50%;
 	
 }
-.top :hover {
-	background-color:#6C757D;
-	color:#F8F9FA;
-} 
+.image img:first-child {
+	padding-right: 15px;
+}
+.image img:last-child {
+	padding-left: 15px;
+
+}
+
 
 .frame {
 	margin-bottom: 80px;
@@ -187,8 +165,13 @@
 	text-align:center;
 	padding:2px 13px;
 	margin-right: 13px;
+	margin-bottom: 13px;
 	transition: 0.3s;
 	
+}
+.frame li:last-child {
+	float: right;
+	margin: 0;
 }
 
 .frame li:hover {
