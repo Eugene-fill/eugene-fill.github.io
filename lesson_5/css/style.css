@@ -6,7 +6,7 @@
 
 .header__block {
 	max-width: 1240px;
-	margin: 0 auto;
+	margin: 0 auto 80px auto;
 	min-width: 600px;
 
 }
@@ -17,16 +17,19 @@
 	background-attachment:fixed;
 	background-size:cover;
 	color: white;
+	margin-bottom: 80px;
 
 }
 
 .menu {
-	display:flex;
-	align-items: center;
+	
+	display:inline-block;
+	float: right;
 	justify-content: space-between;
-	padding: 0 162px 0px 0;
-	height: 200px;
+	padding: 0 132px 0px 0;
+	min-height: 30px;
 	color: #F8F9FA;
+	margin-top: -50px;
 
 
 }
@@ -40,24 +43,43 @@
 
 .logo {
 	font-weight: 700;
-	margin: 60px 36px 65px 25px;
+	padding: 60px 0 0 0;
+	margin-left: 36px;
+	/*margin: 0 36px 65px 25px;*/
 	Font-size: 18px;
 	
 }
 
+
+
 .header_txt {
-	text-align: center;
+	text-align:center;
+	margin: 0 auto;
 	line-height: 50px;
 }
 .string {
+
 	font-weight: 300;
 	font-size: 12px;
 }
 .string2 {
+	text-align: center;
 	font-size: 25px;
 	font-weight: 700;
 }
-.main__article > p {
+
+.date {
+	margin-left: 10px;
+}
+.date span {
+	margin-right: 15px;
+}
+.autor {
+	font-weight: 700;
+	margin-left: 25px;
+}
+
+.main__article  p {
 	margin-bottom: 20px;
 }
 
@@ -69,43 +91,36 @@
 
 .main__block {
 	min-width: 600px;
-	margin: 80px auto;
+	margin: 0 auto;
 	font-size: 12px;
 	color:#6C757D;
-
-	
-}
-.autor {
-	font-weight: 700;
-	margin-left: 25px;
+	margin-bottom: 40px;
 }
 
 .main__article {
 	font-size: 14px;
 	line-height: 25px;
 	text-align: justify;
-	margin: 40px auto 80px auto;
+	margin: 0 auto 80px auto;
 	padding: 0 10px;
 }
 
 
 .main__article h1 {
-	width: 400px;
+	max-width: 400px;
 	font-size: 25px;
 	font-weight: 700;
 	line-height: 40px;
-	margin: 15px 0;
-	padding: 0 10px;
+	margin-bottom: 40px;
 	
 }
 .main__article h2 {
-	width: 605px;
+	max-width: 605px;
 	height: 120px;
 	font-size: 25px;
 	font-weight: 700;
 	line-height: 40px;
-	margin: 15px 0;
-	padding: 0 10px;
+	margin: 0 0 40px 0;
 	
 }
 
@@ -117,8 +132,9 @@
 
 .image {
 	font-size: 0px;
-	width: 1240px;
-	margin: 0 auto;
+	max-width: 1240px;
+	margin: 0 auto 80px auto;
+	font-size: 0px;
 	
 }
 
@@ -126,18 +142,16 @@
 .im1{
 	margin-right: 40px;
 	display: inline-block;
-	font-size: 0px;
 	width: 600px; 
 }
 .im2{
 	
 	display: inline-block;
-	font-size: 0px;
 	width: 600px; 
 }
 
 .top a {
-	
+	display: inline-block;
 	float: right;
 	width: 200px;
 	height: 50px;
@@ -148,7 +162,7 @@
 	font-size: 20px;
 	font-weight: 700;
 	text-align:center;
-	padding-top: 9px;
+	padding: 10px 0 ;
 	transition: 0.3s;
 
 	
@@ -158,6 +172,10 @@
 	background-color:#6C757D;
 	color:#F8F9FA;
 } 
+
+.frame {
+	margin-bottom: 80px;
+}
 
 .frame li {
 	display:inline-block;
