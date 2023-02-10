@@ -126,6 +126,9 @@ h2, h3, h4 {
 	
 
 }
+.another__container:hover {
+	border: 30px solid rgb(34, 0, 255);
+}
 
 .circle {
 	height: 200px;
@@ -135,7 +138,9 @@ h2, h3, h4 {
 	margin: 20px auto;
 	box-shadow:inset 0px 0px 10px 25px greenyellow;
 }
-
+.circle:hover {
+	border: 20px solid goldenrod;
+}
 .circle2 {
 	height: 100px;
 	width: 100px;
@@ -143,6 +148,10 @@ h2, h3, h4 {
 	border-radius:50%;
 	margin: 30px auto;
 	box-shadow:inset 0px 0px 10px 20px darkorchid;}
+
+.circle2:hover {
+	border: 20px solid mediumaquamarine;
+}
 
 .triangle {
 	position: absolute;
