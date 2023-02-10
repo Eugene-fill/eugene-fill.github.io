@@ -1,0 +1,156 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+
+
+
+
+body {
+font-family: Poppins;
+font-size: 14px;
+color: #6C757D;
+line-height: 25px;
+}
+
+
+
+[class*=__container] {
+
+	max-width: 1270px;
+	padding: 0 15px 0 15px;
+	margin: 0 auto;
+}
+
+
+
+.text {
+	max-width: 816px;
+	margin: 0 auto 100px;
+	
+}
+.text:hover {
+	outline: 5px solid red;
+
+}
+p {
+	margin-bottom: 30px;
+}
+
+.title {
+	max-width: 605px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 40px;
+	color:black;
+	margin: 0 auto 100px;
+	
+}
+.title:hover {
+	outline: 5px solid green;
+}
+
+
+.image__block {
+	
+	font-size:0;
+	margin-bottom: 100px;
+}
+
+
+.image1 {
+	
+	margin-right: 30px;
+
+}
+.image1:hover {
+	outline: 5px solid sandybrown;
+}
+
+.image2:hover {
+	outline: 5px solid seagreen;
+}
+
+.borders {
+	max-width: 100%;
+	text-align: center;
+}
+
+.border {
+	display: inline-block;
+	max-width: 605px;
+	margin: 0 auto 80px;
+	border-top: 30px dashed grey;
+	border-right: 30px dotted grey;
+	border-bottom:30px double grey;
+	border-left: 30px solid grey;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px rgb(33, 62, 116);
+}
+
+
+.boder2 {
+	font-size: 25px;
+	color:aqua;
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 816px;
+	border: 200px solid  saddlebrown;
+	border-radius:	0% 100% 55% 45% / 0% 51% 49% 100%;
+
+	margin-bottom: 100px;
+}
+
+h2, h3, h4 {
+	font-size: 25px;
+}
+.next__container {
+}
+.opacity {
+	opacity: 0.3;
+}
+.visibility {
+	visibility:hidden;
+}
+.display-none {
+	display: none;
+	margin-bottom: 300px;
+}
+
+.another__container {
+	margin-top: 300px;
+	height: 300px;
+	width: 300px;
+	border: 30px solid brown;
+	position: relative;
+	box-shadow:inset 0px 0px 20px 30px coral;
+	
+
+}
+
+.circle {
+	height: 200px;
+	width: 200px;
+	border: 20px solid green;
+	border-radius:50%;
+	margin: 20px auto;
+	box-shadow:inset 0px 0px 10px 25px greenyellow;
+}
+
+.circle2 {
+	height: 100px;
+	width: 100px;
+	border: 20px solid darkmagenta;
+	border-radius:50%;
+	margin: 30px auto;
+	box-shadow:inset 0px 0px 10px 20px darkorchid;}
+
+.triangle {
+	position: absolute;
+	bottom: 270px;
+	right: -30px;
+	border-bottom: 150px solid green;
+	border-right:150px solid white;
+	border-left:150px solid white;
+	border-top:150px solid white;
+	
+}
