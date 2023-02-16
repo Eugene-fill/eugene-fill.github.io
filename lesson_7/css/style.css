@@ -6,9 +6,11 @@
 * {
     font-family: Poppins;
 } 
-
+.container  {
+    width: 100%;
+}
 .header__block {
-    max-width: 1440px;
+    
     height: 600px;
     margin: 0 auto;
     background: url("../img/backgnd.png") center / cover no-repeat;
@@ -50,6 +52,7 @@
     font-weight: 400;
     margin: 0 0 45px 0;
     color: #000;
+ 
     
   
 }
@@ -127,8 +130,10 @@
 .speaker {
     background: url('../img/speaker1.png') 700px 81px /272px no-repeat, rgba(226,226,226,0.5);
     border: 1px solid #C8C8C8FF;
-    height: 560px;
+    min-height: 560px;
     margin-bottom: 100px;
+    max-width: 1170px;
+  
 }
 
 .info {
@@ -154,9 +159,11 @@
 }
 
 .moreinfo {
+    max-height: 100px;
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 35px;
+    overflow:auto;
 }
 
 .shop {
