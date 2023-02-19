@@ -283,14 +283,14 @@ main {
 
 .goods_box {
     
-   
+    background:linear-gradient(90deg, rgba(159, 151, 151, 0.594) 0%, rgb(236, 236, 236) 52%);
     margin:0 0 100px;
   
    
 }
 .goods_box_wrap {
     border: 1px solid #C8C8C8FF;
-    background:linear-gradient(90deg, rgba(159, 151, 151, 0.594) 0%, rgba(255,255,255,1) 52%);
+   
     max-width: 1440px;
     min-height: 560px;
     margin: 0 auto;
