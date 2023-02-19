@@ -101,7 +101,7 @@ main {
 
 .order__list {
     display: block;
-    margin: 0 0 80px 30px;
+    margin: 0 0 80px 40px;
     font-family: 'Inter';
    
 }
@@ -109,11 +109,13 @@ main {
 .unordlist {
     display: block;
     margin-left: 40px;
+    margin-right: 40px;
 }
 
-.order__list li {
+.order__list li, .unordlist li {
     font-family: 'Inter';
     padding-bottom: 10px;
+    padding-right: 10px;
     
 }
 
@@ -224,10 +226,14 @@ main {
     margin-bottom: 20px;
   
 }
+.dot li {
+    margin-bottom: 6px;
+}
 .dot li::before {
     content: '';
-    padding: 3px;
-    margin: 0 5px 3px 0;
+    height: 8px;
+    width: 8px;
+      margin: 0 5px 0 0;
     background:url(../img/dot.png) 0 0/ contain no-repeat;
     display: inline-block;
 
