@@ -290,7 +290,7 @@ main {
 }
 .goods_box_wrap {
     border: 1px solid #C8C8C8FF;
-   
+    background: url(../img/goodsbackgrnd.png)300px 0/ cover no-repeat;
     max-width: 1440px;
     min-height: 560px;
     margin: 0 auto;
