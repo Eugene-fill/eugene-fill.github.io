@@ -8,10 +8,17 @@
 }
 
 .container {
-    width: 100%;
- }
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 .backgrnd {
+    width: 100%;
     padding-top: 36px;
     padding-bottom: 100px;
     margin-bottom: 50px;
@@ -93,13 +100,14 @@
 }
 
 .order__list {
-   
+    display: block;
     margin: 0 0 80px 30px;
     font-family: 'Inter';
    
 }
 
 .unordlist {
+    display: block;
     margin-left: 40px;
 }
 
@@ -112,6 +120,7 @@
 .list1, .list2, .list3 {
     margin-bottom: 30px;
     max-width: 400px;
+    display:inline-block;
 }
 
 
@@ -211,6 +220,7 @@
    
 
 .dot, .green, .blue, .red, .arrow, .star{
+    display: inline-block;
     margin-bottom: 20px;
   
 }
@@ -267,15 +277,14 @@
 
 .goods_box {
     
-    background:linear-gradient(90deg, rgba(159, 151, 151, 0.594) 0%, rgba(255,255,255,1) 52%);
-  
- 
+   
     margin:0 0 100px;
   
    
 }
 .goods_box_wrap {
     border: 1px solid #C8C8C8FF;
+    background:linear-gradient(90deg, rgba(159, 151, 151, 0.594) 0%, rgba(255,255,255,1) 52%);
     max-width: 1440px;
     min-height: 560px;
     margin: 0 auto;
