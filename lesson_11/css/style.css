@@ -1,0 +1,268 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Inter:200,600&display=swap');
+
+body {
+    font-family: 'Inter';
+}
+
+.menu__item:hover {
+    color: #3056D3;
+}
+.sub-menu__item:hover {
+    color: #3056D3;
+}
+.sub-menu2-list__item:hover {
+    color: #3056D3;
+}
+.sub-menu3-list__item:hover {
+    color: #3056D3;
+}
+[class*='__title']{
+    color:black;
+    margin-bottom: 20px;
+
+}
+
+[class*='__container']{
+    max-width: 1200px;
+    padding-left: 15px;
+    margin: 0 auto ;
+}
+
+.wrapper {
+    overflow:clip;
+    min-height: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color:#fff;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header__container {
+    
+    min-height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0 15px 0;    
+}
+
+
+
+.header__logo {
+    display: inline-block;
+    padding: 0 44px 0 0px;
+    vertical-align: middle;
+}
+
+.header__box {
+    max-width: 123px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.box__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.box__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.header__menu {
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 160px;
+ 
+}
+
+
+.menu__item {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.menu__item:not(:last-child){
+    padding-right: 20px;
+
+}
+.menu__link {
+    vertical-align: middle ;
+    display: inline-block;
+}
+
+
+    
+
+.menu-link-arrow__arrow img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu-link-arrow__margin img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+.menu__item:nth-child(1) {
+    padding: 10px 15px;
+    background-color:rgb(226, 226, 226) ;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    
+   
+}
+
+
+.menu__sub-menu   {
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    max-width: 180px;
+    line-height: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    pointer-events: none;
+    color: #637381;
+    background-color: #fff;
+    border: 1px solid  #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.menu__sub-menu::after {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: -20%;
+    left: 0%;
+    z-index: -1;
+    background-color:transparent;
+
+}
+
+
+.menu__item:hover .menu__sub-menu {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: all;
+    background-color: #fff;
+
+}
+
+.sub-menu2-list {
+    position: absolute;
+    top:10%;
+    left: 102%;
+    padding: 20px 0 0 20px;
+    min-height: 280px;
+    min-width: 652px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    pointer-events: none;
+    background-color: #fff;
+    border: 1px solid  #fff;
+    border-radius: 5px;
+    z-index: 2;
+    display: inline-block;
+}
+
+.sub-menu2-list::after {
+    content: "";
+    position: absolute;
+    width: 140%;
+    height: 140%;
+    top: -20%;
+    left: -20%;
+    z-index: -5;
+    background-color:transparent;
+}
+   
+
+.sub-menu__item:hover .sub-menu2-list {
+   
+    opacity: 1;
+	visibility: visible;
+	pointer-events: all;
+    color: #637381;
+}
+
+
+.sub-menu3-list {
+    position: absolute;
+    top: 0;
+    left: 20%;
+     margin-left: 50px;
+    padding: 10px;
+    padding: 20px 0 0 20px;
+    height: 308px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    pointer-events: none;
+    display: inline-block;
+   
+}
+
+.sub-menu2-list__item:hover .sub-menu3-list {
+    opacity: 1;
+	visibility: visible;
+	pointer-events: all;
+    color: #637381;
+}
+
+
+.menu__image img {
+   position: absolute;
+   top:15px;
+   left:350px;
+}
+
+
+.image-text__text {
+    position: absolute;
+    top:  100px;
+    left: 350px;
+    text-align: center;
+    color: #fff;
+}
+
+.image-text__text h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.image-text__text h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+.image-text__button {
+    margin: 0px 68px 65px;
+    min-width: 90px;
+    min-height: 25px;
+    background-color:#3056D3;
+    border-radius:5px;
+    color:#fff;
+    font-size: 11px;
+    transition: all 0.3s;
+}
+
+.image-text__button:hover {
+    background-color: red;
+}
