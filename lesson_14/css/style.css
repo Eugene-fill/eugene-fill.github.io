@@ -125,6 +125,7 @@ body {
 }
 .card__image img {
 	transition: transform 0.2s;
+	cursor:pointer;
 
 }
 .card__image img:hover {
@@ -146,6 +147,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	transition: transform 0.2s;
+	cursor:pointer;
 
 }
 
