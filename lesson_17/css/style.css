@@ -1,0 +1,283 @@
+@import url('reset.css');
+@import url('common.css');
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,500,600,700&display=swap');
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 12px;
+	color: #212529;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+[class*="__container"] {
+	max-width: 1290px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main {
+}
+.achievement {
+
+}
+.achievement__container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    margin-bottom: 100px;
+    gap: 40px;
+   
+}
+.achievement__title {
+   
+    
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+
+}
+.achievement__title::after {
+    content:"";
+    border-bottom: 2px solid black ;
+    position: absolute;
+    width: 464px;
+    height: 0px;
+    left: 120px;
+    top: 50%;
+}
+.achievement__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: space-between;
+   
+
+}
+.item-achievement {
+   
+
+
+}
+.item-achievement__image img {
+    min-width: 100%;
+   
+  
+
+}
+
+.item-achievement__image  {
+    flex: 0 1 auto;
+}
+.item-achievement__text {
+    
+    flex: 0 1 334px;
+    align-self: center;
+   
+   
+   
+    
+}
+.text-item-achievement {
+}
+.text-item-achievement__title {
+    margin-bottom: 20px;
+    max-width: 293px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+ 
+}
+.text-item-achievement__info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #9C9C9C;
+}
+
+
+
+
+
+
+.minimalist-room {
+    display: flex;
+    flex-wrap: wrap;
+   
+  
+
+   
+}
+.minimalist-room__container {
+
+  
+   
+   
+}
+.minimalist {
+}
+.minimalist__title-box {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 518px; 
+  
+    
+}
+.minimalist__title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 700;
+    Font-size: 56px;
+    Line-height: 140%
+  
+}
+.minimalist__title h5 {
+    font-weight: 500;
+    font-size: 34px;
+    Line-height: 140%
+}
+
+.minimalist__title-text{ 
+    font-weight:400;
+    font-size: 18px;
+    Line-height: 160%;
+    text-align: center;
+    margin-bottom:53px ;
+}
+
+
+
+.minimalist__image {
+    
+    text-align: center;
+    min-width: 100%;
+    margin-bottom: 100px;
+   
+
+}
+.minimalist__image img {
+  
+}
+
+
+.minimalist__images {
+    display: flex;
+	flex-wrap: wrap;
+	margin: 0 -16px;
+	row-gap: 32px;
+}
+.images {
+
+}
+
+.images__image {
+    text-align: center;
+	padding: 0 16px;
+	flex: 0 1 50%;
+}
+.images__image img {
+    min-width: 100%;
+}
+
+@media (max-width: 610px) {
+    .images__image {
+        padding: 0 10px;
+        flex: 0 1 100%;
+        object-fit: cover;
+       
+    }
+   
+    
+}
+
+.images__image_big {
+    flex: 0 1 100%;
+    
+}
+.images__image_big img {
+    object-fit: cover;
+    min-width: 100% ;
+    min-height: 100%;
+}
+
+
+
+
+
+.minimalist__article {
+}
+
+.minimalist__box {
+    display: flex;
+    gap: 52px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 81px;
+
+}
+
+
+.minimalist__column {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.minimalist__text {
+    margin: 0 auto;
+    max-width: 518px;
+    min-height: 87px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #9C9C9C;
+ 
+}
+.minimalist__text p {
+  
+}
+
+
+
+.minimalist-text__footer {
+    margin-top: 60px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items:flex-end;
+   
+}
+/*
+.minimalist-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    margin-bottom: 60px;
+
+}
+*/
+.minimalist-text__date {
+    flex: 0 1 126px;
+    margin-right: 80px;
+}
+.minimalist-text__author {
+    flex: 0 1 300px;
+   
+   
+}
