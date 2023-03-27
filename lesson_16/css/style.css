@@ -1,0 +1,405 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:500,600,700&display=swap");
+
+
+
+
+body {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+
+.title {
+    margin: 30px 0 30px 30px;
+}
+
+
+[class*="__container"] {
+    max-width: 730px;
+    margin: 0 auto;
+    padding: 50px 15px;
+
+}
+
+
+
+@media (max-width:480px){
+    [class*="__container"] {
+        padding: 30px 10px;
+    
+    }
+    
+
+}
+.star{
+    color:red;
+}
+
+[class*="__title"] {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    color: #212B36;
+    margin-bottom: 30px;
+}
+.form__inputs-body {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 28px;
+    row-gap: 30px;
+    margin-bottom: 35px;
+}
+
+.form__item-body {
+    flex: 1 1 336px;
+   
+}
+
+/*
+.form__item-body_select {
+
+}
+*/
+.form__input {
+    width: 100%;
+    font-family: 'Inter';
+    font-weight: 500;
+    background: #FFFFFF;
+    outline: 1px solid #E7E7E7;
+    border-radius: 7px;
+    padding: 15px 25px;
+    color: #637381;
+    font-size: 16px;
+}
+
+/*
+.form__input_select {
+
+
+}
+
+.form__comments {
+
+
+}
+.textarea {
+}
+
+*/
+.form__item input {
+   
+    min-height: 52px;
+   
+
+}
+
+.textarea  {
+    min-width: 100%;   
+    margin-bottom: 30px;
+    outline: 1px solid #E7E7E7;
+    border-radius: 7px;
+
+
+}
+
+
+
+
+
+.textarea {
+    padding: 25px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 7px;
+    min-height: 180px;
+    resize: vertical;
+}
+
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    row-gap:20px;
+   
+ 
+}
+
+
+.checkbox__input {
+    width: 22px;
+    height: 22px;
+    border:0.7px solid #e7e7e7;
+    border-radius: 4px;
+    vertical-align: middle;
+
+
+}
+.checkbox__label {
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+
+.checkbox__input-code {
+    margin-right: 20px;
+    vertical-align: middle;
+    
+    display: inline-block;
+    border-radius: 7px;
+    outline: 1px solid #e7e7e7;
+}
+
+.checkbox__input-code input {
+    height: 46px;
+}
+.checkbox__button {
+    text-align: center;
+    padding: 13px;
+    vertical-align: middle;
+    display:inline-block;
+    width: 135px;
+    height: 48px;
+    background-color: #212B36;
+    border-radius: 5px;
+    color: #fff;
+    transition:color 0.5s ease;
+}
+
+
+.checkbox__button:hover {
+    background-color:rgb(171, 171, 171);
+    color:black;
+}
+
+
+
+
+
+.crisp__form {
+    font-family: 'roboto';
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 39px;
+ 
+}
+.crisp__form:not(:last-child) {
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.crisp__line {
+    display: flex;
+    
+    column-gap:13px;
+    justify-content: space-between;
+    
+
+}
+
+.crisp__line_column {
+   display:flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+  align-items: flex-end;
+
+}
+
+.info-txt {
+    margin-bottom: 14px;
+}
+
+.crisp__label {
+  max-width: 50%;
+  margin-right: 10px;
+    
+}
+
+
+.crisp__input {
+    flex-shrink: 1;
+    min-width: 451px ;
+    outline: 1px solid #C4C4C4;
+    min-height: 30px;
+    margin-bottom: 13px;
+}
+
+
+@media (max-width: 450px) {
+    .crisp__input {
+        min-width: 250px ;
+    }
+   
+    
+}
+
+.crisp__select {
+   
+    flex:0 1  450px;
+    outline: 1px solid #C4C4C4;
+    min-height: 30px;
+    margin-bottom: 15px;
+   
+}
+
+
+.crisp__title {
+    font-family: 'Oswald';
+   
+
+}
+
+
+.crisp-title-shipping {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+
+
+.radio__column{
+    display: flex;
+
+   
+}
+.radio__column:not(:last-child) {
+    border-bottom: 1px solid #C4C4C4;
+}
+
+
+.radio__line {
+    display:flex;
+ 
+    gap: 10px;
+    flex: 0 1 180px;
+    padding: 15px 0;
+
+}
+
+.radio__rate {
+  padding: 15px 0;
+  display:inline-flex;
+  justify-content: space-between;
+  gap:10px;
+  flex-basis:200px;
+  flex-shrink: 1;
+}
+
+
+
+@media (max-width: 450px) {
+    .radio__rate {
+         min-width: 250px;
+      }
+      
+}
+
+/*родитель*/
+.radio__line {
+    position: relative;
+}
+
+
+.radio__line:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+/*input*/
+.radio__button {
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+
+.radio__button:checked + .radio__price {
+    color: #000;
+}
+
+
+.radio__button:checked + .radio__price::before {
+    border: 3px solid black;
+
+   
+  
+}
+
+
+
+/*label*/
+.radio__price {
+	cursor: pointer;
+	display: inline-flex;
+	align-items: flex-start;
+	gap: 5px;
+    color:#828282;
+}
+
+
+.radio__price::before {
+	content: "";
+	flex: 0 0 13px;
+    width: 13px;
+    height: 13px;
+    background: #FFFFFF;
+    border: 1px solid #828282;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+.crisp__button-block{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-bottom: 36px;
+    align-items: center;
+}
+
+
+    
+
+.crisp__button {
+    text-align: center;
+    padding: 15px;
+    vertical-align: middle;
+    display:inline-block;
+    width: 135px;
+    height: 48px;
+    background-color: #212B36;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.crisp__button:hover {
+    background-color:rgb(171, 171, 171);
+    color:black;
+}
+
+
+.back:hover {
+    text-decoration: underline;
+}
+
+
+

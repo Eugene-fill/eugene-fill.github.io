@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+  
+    <title>Lesson 16</title>
+</head>
+<body> 
+<div class="wrapper">
+    <header></header>
+    <main>
+       
+
+       <div class="reg-form">
+
+        <div class="reg-form__container form">    
+      
+                <form class="form__body" method="post" action="https://jsonplaceholder.typicode.com/posts">
+                    <h2 class="form__title">Billing Details</h2>
+
+                    <div class="form__inputs-body">
+                
+                  
+                    <div class="form__item-body">
+                        <label for="first-name"></label>
+                        <input class="form__input" required type="text" name="first-name" id="first-name" placeholder="First name">
+                    </div>
+
+
+                    <div class="form__item-body">
+                        <label for="last-name"></label>
+                        <input class="form__input" required type="text" name="last-name" id="last-name" placeholder="Last-name">
+                    </div>
+
+                    <div class="form__item-body">
+                        <label for="address"></label>
+                        <input class="form__input" required type="text" name="address" id="address" placeholder="Adress">
+                    </div>
+
+                    
+                    <div class="form__item-body">
+                        <label for="adress2"></label>
+                        <input class="form__input" required type="text" name="address2" id="adress2" placeholder="Address line 2">
+                    </div>
+
+                    <div class="form__item-body">
+                        <select class="form__input" name="country" required>
+                            <option label="Country"></option>
+                            <option value="Ukraine">Ukraine</option>
+                            <option value="USA">USA</option>
+                            <option value="Great Britain">Great Britain</option>
+                            <option value="Italy">Italy</option>
+                            <option value="Turkey">Turkey</option>
+                        </select>
+                    </div>
+                    
+                     
+                    <div class="form__item-body">
+                        <label for="city"></label>
+                        <input class="form__input" required type="text" name="city" id="city" placeholder="City">
+                    </div>
+
+
+                    <div class="form__item-body">
+                        <label for="post-code"></label>
+                        <input class="form__input" required type="text" name="post-code" id="post-code" placeholder="Postcode / ZIP">
+
+                    </div>
+
+                    <div class="form__item-body">
+                        <label for="phone"></label>
+                        <input class="form__input" required type="tel" name="phone" id="phone" placeholder="Phone">
+                    </div>
+
+
+                    
+                    <div class="form__item-body">
+                        <label for="post-code2"></label>
+                        <input class="form__input" required type="text" name="post-code2" id="post-code2" placeholder="Postcode / ZIP">
+                    </div>
+
+                  
+                    <div class="form__item-body">
+                        <label for="phone2"></label>
+                        <input class="form__input" required type="tel" name="phone2" id="phone2" placeholder="Phone">
+                    </div>
+
+                    
+                    </div>
+
+
+
+                    
+                <div class="form__comments">
+                    <label for="info"></label>
+                    <textarea class="textarea" name="info" id="info" placeholder="Additional information" style="height: 180px;"></textarea>
+                </div>
+
+
+
+
+                <div class="checkbox"> 
+                    <div class="checkbox__option">
+                    <input class="checkbox__input" type="checkbox" name="new-account" id="item1" checked>
+                    <label class="checkbox__label" for="item1">Create Account </label>
+                     </div>
+
+
+                     <div class="checkbox__option">
+                    <input class="checkbox__input" type="checkbox" name="new-address" id="item2">
+                    <label class="checkbox__label" for="item2"> Ship to a different address?</label>
+                     </div>
+
+                     <div class="checkbox__discount">
+                        <div class="checkbox__input-code">
+                            <input type="text" name="discount-code" id="discount" placeholder="Coupon code">
+                           
+                        </div>
+                        <div class="checkbox__button">
+                            <button type="submit">Apply Code</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+                   
+
+
+
+
+
+
+
+
+
+
+                </form>
+
+               
+
+            </div>
+
+        </div> 
+
+
+
+        <div class="crisp" id="crisp-start">
+            <div class="crisp__container">
+                <form class="crisp__form">
+                    <h2 class="crisp__title"> Shipping Address</h2>
+                     
+                    <div class="crisp__line">
+                        <label class="crisp__label" for="email">Email Address <span class="star">*</span></label>
+                        <input required class="crisp__input" type="email" id="email" name="user-email">
+                    </div>
+
+                    <div class="crisp__line">
+                        <label class="crisp__label" for="password">Password</label>
+                        <input class="crisp__input" type="password" id="password" name="user-pass">
+                    </div>
+
+                    <div class="crisp__line">
+                        <label class="crisp__label" for="crisp-post-code">Zip/Postal Code</label>
+                        <input class="crisp__input" type="number" id="crisp-post-code" name="user-post-code">
+                    </div>
+
+                    <p class="info-txt">You already have an account with us. Sign in or continue as guest.</p>
+                    
+                    <div class="crisp__button-block">
+                    <div class="crisp__button">
+                        <button type="submit">Login</button>
+                    </div>
+
+                        <a href="#" class="password-link"> Forgot Your Password? </a>
+                    </div>
+
+                    
+
+                  
+                  
+                </form>
+
+                <form class="crisp__form">
+                      
+                    <div class="crisp__line">
+                        <label class="crisp__label" for="first-name">First name <span class="star">*</span></label>
+                        <input required class="crisp__input" type="text" id="name" name="user-name">
+                    </div>
+                      
+                    <div class="crisp__line">
+                        <label class="crisp__label" for="crisp-user-lastname">Last name <span class="star">*</span></label>
+                        <input required class="crisp__input" type="text" id="crisp-user-lastname" name="crisp-user-lastname">
+                    </div>
+                      
+                    <div class="crisp__line">
+                        <label class="crisp__label" for="work">Company</label>
+                        <input class="crisp__input" type="text" id="work" name="work">
+                    </div>
+                      
+                    <div class="crisp__line ">
+                        <label class="crisp__label crisp__label_address" for="crisp-address">Street Address <span class="star">*</span></label>
+                        <input required class="crisp__input" type="text" id="crisp-address" name="crispuser-address">
+                    </div>
+                    <div class="crisp__line crisp__line_column">
+                        <input class="crisp__input" type="text" id="crisp-address1" name="user-address">
+                        <input class="crisp__input" type="text" id="crisp-address2" name="user-address">
+                        <input class="crisp__input" type="text" id="crisp-address3" name="user-address">
+                  
+                    </div>
+
+
+                    <div class="crisp__line">
+                        <label class="crisp__label" for="country">Country <span class="star">*</span></label>
+                        <select required class="crisp__select" id="country" name="country" size="1">
+                            <option label="Country"> </option>
+                            <option value="usa"> USA </option>
+                            <option value="Canada"> Canada </option>
+                            <option value="Ukraine"> Ukraine </option>
+                            <option value="Great-Britain"> Great Britain </option>
+                            <option value="China"> China </option>
+
+                        </select>
+                    </div>
+
+                    <div class="crisp__line">
+                        <label class="crisp__label" for="state">State / Province <span class="star">*</span></label>
+                        <select required class="crisp__select" id="state" name="state" size="1">
+                            <option label="Please select a region, state or province"> </option>
+                            <option value="1"> State/Province 1</option>
+                            <option value="2"> State/Province 2</option>
+                            <option value="3"> State/Province 3</option>
+                            <option value="4"> State/Province 4</option>
+                            <option value="5"> State/Province 5</option>
+
+                        </select>
+                    </div>
+
+
+                    <h2 class="crisp__title crisp-title-shipping">Shipping Methods</h2>
+
+
+                    <div class="crisp__radio radio">
+                        <div class="radio__column">
+
+                        <div class="radio__line">
+                            <input class="radio__button" required autocomplete="off" type="radio" name="shipping" id="radio-01"> 
+                            <label for="radio-01" class="radio__price"> 5$</label>
+                        </div>
+
+                            <div class="radio__rate">
+                            <label class="radio__text"> Fixed </label>
+                            <label class="radio__text"> Flat Rate</label>
+                            </div>
+                      
+                    </div>
+                    <div class="radio__column">
+                        <div class="radio__line">
+                            <input class="radio__button" required autocomplete="off" type="radio" name="shipping" id="radio-02"> 
+                            <label for="radio-02" class="radio__price">10$</label>
+                        </div>
+
+                            <div class="radio__rate">
+                            <label class="radio__text"> Table Rate </label>
+                            <label class="radio__text">Best Way</label>
+                        </div>
+                     
+                    </div>
+                        
+                    </div>
+
+
+                    <div class="crisp__button-block">
+                        <div class="crisp__button">
+                            <button type="submit">NEXT</button>
+                        </div>
+    
+                            <a href="#crisp-start" class="back"> BACK </a>
+                        </div>
+
+                </form>
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+</div>
+             
+                
+              
+
+     
+
+
+
+
+
+
+     
+
+
+
+    <footer></footer>
+
+    
+</body>
+</html>
